@@ -1,0 +1,59 @@
+/* .aText {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  text-anchor: middle;
+} */
+
+.active {
+  font-weight: bold;
+  fill: #000;
+  fill: #1437d4;
+  transition: fill 0.3s ease-out;
+  text-anchor: middle;
+}
+
+.inactive {
+  font-weight: lighter;
+  fill: #296aa7;
+  transition: fill 0.3s ease-out;
+  text-anchor: middle;
+}
+
+/* .inactive:hover {
+  fill: #e75480;
+  cursor: pointer;
+} */
+
+/* font size dependent on radius, see app.js */
+.areaText {
+  font-family: sans-serif;
+  /* fill: #fff; */
+  text-anchor: middle;
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+  }
+
+.chart {
+  display: block;
+  margin: 0;
+}
+
+/* Mobile Rules */
+@media screen and (max-width: 530px) {
+  .stateText {
+    display: none;
+  }
+
+  .aText {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .aText {
+    font-size: 13px;
+  }
+}
+

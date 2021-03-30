@@ -1,0 +1,67 @@
+/* remove default margin and padding from body */
+body {
+    padding: 0;
+    margin: 0;
+}
+
+  /* set map, body, and html to 100% of the screen size */
+#map,
+body,
+html {
+    height: 100%;
+}
+
+/* School Legend specific*/
+.legend {
+  text-align: center;
+  padding: 6px 10px;
+  font: 13px Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  width: 90px;
+  margin: 0 10px 0 0;
+  background: white;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  line-height: 24px;
+  color: (15, 15, 15);
+}
+.legend h5 {
+  text-align: center;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 2px 2px 2px;
+  color: rgb(55, 53, 53);
+}
+
+.legend h6 {
+  text-align: center;
+  font-size: 10px;
+  font-weight: lighter;
+  margin: 2px 0px 8px;
+  color: rgb(55, 53, 53);
+}
+
+.legend span {
+  position: relative;
+  bottom: 3px;
+}
+
+.legend i {
+  text-align: center;
+  width: 20px;
+  height: 18px;
+  float: left;
+  margin: 10 0 0 0;
+  opacity: 1;
+  
+}
+
+.legend i.icon {     
+  
+  background-size: 18px;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+
+

@@ -1,0 +1,34 @@
+/* Formating pictures and text */
+
+.abstract{
+    color: grey;
+    margin: auto;
+    width: 38em;
+    font-size: 120%;
+  }
+  .title{
+    margin: auto;
+    width: 38em;
+    font-size: 120%;  
+  }
+  a:link{
+    text-decoration: none;
+    color: grey;
+  }
+  
+  a:visited{
+    color: grey;
+  }
+  
+  a:hover{
+    text-decoration: underline;
+  }
+  
+  a
+  {
+  target-new:tab;
+  }
+  img
+  {
+    width: 700px;
+  }

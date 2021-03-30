@@ -1,0 +1,75 @@
+/*
+* Absolute Position: anchors element to the first element (overall box)
+*/
+
+.box-set {
+  position: relative;
+  height: 450px;
+  background:  #1a146e;
+}
+
+.box {
+  /* Absolute Position */
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background:  #1a146e;
+  border: 0px solid white;
+}
+      
+/* Box rules: percentages define anchors (i.e. position of each box relative to enclosing box) */
+
+.box-1 {
+  top: 200px;
+  left: -300px;
+}
+
+.box-2 {
+  top: 200px;
+  right: 500px;
+}
+
+.box-3 {
+  right: 500px;
+  bottom: -200px;
+}
+
+.box-4 {
+  bottom: -200px;
+  left: -300px
+}     
+
+/* Header rules used for home search webpage: */
+      h1 {
+        text-align: center;
+        background-color: rgb(223, 235, 234);
+        color: red;
+      }
+      
+      h2 {
+        background-color: rgb(25, 236, 236);
+        color: black;
+      }
+      
+      h3 {
+        color: rgb(19, 21, 173);
+      }
+      
+      img {
+        box-shadow: 3px 3px 5px white;
+      }
+      
+      section {
+        background-color: #000;
+        color: deeppink
+      }
+      
+      p {
+        font-size: 15px;
+        color: gray;
+      }
+      
+      ul {
+        border-style: solid;
+        color: gray;
+      }
